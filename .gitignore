@@ -1,6 +1,5 @@
 node_modules/
 .env
-botinfo.ts
 package-lock.json
 *.zip
 yarn.lock
