@@ -8,7 +8,7 @@ export default new Event({
         
         const { commands, buttons, selects, modals } = client;
 
-        console.log("✅ Bot online".green);
+        console.log(`✅ Bot ${client.user?.username} online`.green);
         console.log(`Commands loaded: ${commands.size}`.cyan);
         console.log(`Buttons loaded: ${buttons.size}`.cyan);
         console.log(`Selects Menus loaded: ${selects.size}`.cyan);
